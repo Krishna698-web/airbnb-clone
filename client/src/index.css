@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='text'], input[type='email'], input[type='password'], input[type='number'], input[type='tel'] {
+    @apply w-full border border-gray-300 px-2.5 py-1 my-2 rounded-xl text-base;
+}
+
+button.login{
+    @apply w-full mt-1 py-1 bg-primary text-white rounded-2xl text-sm;
+}
